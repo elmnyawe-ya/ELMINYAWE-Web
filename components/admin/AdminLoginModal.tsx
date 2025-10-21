@@ -42,7 +42,7 @@ const AdminLoginModal: React.FC<AdminLoginModalProps> = ({ onClose }) => {
   };
 
   return (
-    <Modal onClose={onClose} title={t('admin_access', 'Admin Access')}>
+    <Modal isOpen={true} onClose={onClose} title={t('admin_access', 'Admin Access')}>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label className="block text-sm font-medium text-neon-red mb-2">
